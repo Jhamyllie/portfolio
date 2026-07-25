@@ -1,0 +1,27 @@
+.experience {
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.experience__content {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.experience__eyebrow {
+  margin-bottom: var(--spacing-xs);
+
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.experience__title {
+  margin-bottom: var(--spacing-lg);
+
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.experience__list {
+  display: grid;
+  gap: 1.5rem;
+}

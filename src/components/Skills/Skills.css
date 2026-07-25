@@ -1,0 +1,73 @@
+.skills {
+  padding: var(--spacing-lg) var(--spacing-md);
+  background-color: var(--color-surface);
+}
+
+.skills__content {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.skills__eyebrow {
+  margin-bottom: var(--spacing-xs);
+
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.skills__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.skills__description {
+  max-width: 650px;
+  margin-top: var(--spacing-sm);
+
+  color: var(--color-text-secondary);
+  font-size: 1.125rem;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+
+  margin-top: var(--spacing-lg);
+}
+
+.skills__group {
+  padding: var(--spacing-md);
+
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+
+  background-color: var(--color-background);
+}
+
+.skills__group-title {
+  margin-bottom: var(--spacing-sm);
+
+  font-size: 1.25rem;
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.skills__list li {
+  padding: 0.45rem 0.8rem;
+
+  border-radius: 999px;
+
+  background-color: rgba(79, 140, 255, 0.15);
+
+  color: var(--color-primary);
+  font-size: 0.9rem;
+}

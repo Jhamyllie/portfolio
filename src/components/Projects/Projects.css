@@ -1,0 +1,31 @@
+.projects {
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.projects__content {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.projects__eyebrow {
+  margin-bottom: var(--spacing-xs);
+
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.projects__title {
+  max-width: 700px;
+  margin-bottom: var(--spacing-lg);
+
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.projects__grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+  gap: 2rem;
+}

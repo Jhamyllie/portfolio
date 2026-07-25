@@ -1,0 +1,23 @@
+:root {
+  /* Cores */
+  --color-background: #1b1b1b;
+  --color-surface: #252525;
+
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #b3b3b3;
+
+  --color-primary: #4f8cff;
+
+  /* Fonte */
+  --font-family: "Inter", sans-serif;
+
+  /* Layout */
+  --max-width: 1200px;
+
+  /* Espaçamentos */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+}
