@@ -1,7 +1,7 @@
 import "./Projects.css";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
-import animaiImage from "../../assets/i521747.jpeg";
-import eAceleraImage from "../../assets/e-acelera.png";
+import animaiImage from "../../assets/anime.jpeg";
+import eAceleraImage from "../../assets/e-aceleraImg.png";
 
 const projects = [
   {

@@ -1,6 +1,3 @@
-// export function Hero() {
-//   return <section>Hero</section>;
-// }
 import "./Hero.css";
 
 export function Hero() {

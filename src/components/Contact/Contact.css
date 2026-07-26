@@ -1,0 +1,83 @@
+.contact {
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.contact__content {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+
+  background-color: var(--color-surface);
+  text-align: center;
+}
+
+.contact__eyebrow {
+  margin-bottom: var(--spacing-xs);
+
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.contact__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.contact__description {
+  max-width: 650px;
+  margin: var(--spacing-sm) auto 0;
+
+  color: var(--color-text-secondary);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.contact__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+
+  margin-top: var(--spacing-md);
+}
+
+.contact__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 44px;
+  padding: 0.7rem 1rem;
+
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.contact__link:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+
+  transform: translateY(-2px);
+}
+
+.contact__link--primary {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+.contact__link--primary:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+}
