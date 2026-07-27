@@ -1,6 +1,6 @@
 .about {
-  padding: var(--spacing-xl) var(--spacing-md);
-  background-color: var(--color-surface);
+  padding: calc(var(--spacing-xl) + 1rem) var(--spacing-md);
+
 }
 
 .about__content {
@@ -11,26 +11,27 @@
 
 .about__eyebrow {
   margin-bottom: var(--spacing-xs);
-
   color: var(--color-primary);
   font-weight: 500;
 }
 
 .about__title {
-  max-width: 700px;
+  max-width: 18ch;
+  margin-bottom: 2rem;
 
   font-size: clamp(2rem, 5vw, 3.5rem);
   line-height: 1.2;
 }
 
 .about__text {
-  max-width: 750px;
-  margin-top: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 
-  color: var(--color-text-secondary);
-  font-size: 1.125rem;
+  max-width: 900px;
 }
 
-.about__text p + p {
-  margin-top: var(--spacing-sm);
+.about__text span {
+  color: var(--color-primary);
+  font-weight: 600;
 }

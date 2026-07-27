@@ -1,5 +1,5 @@
 import "./Projects.css";
-import { ProjectCard } from "../ProjectCard/ProjectCard";
+import { ProjectCard } from "./ProjectCard/ProjectCard";
 import animaiImage from "../../assets/anime.jpeg";
 import eAceleraImage from "../../assets/e-aceleraImg.png";
 
@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "AnimAi",
     description:
-      "API REST desenvolvida em Java com Spring Boot para gerenciamento de animes favoritos.",
+      "API REST desenvolvida com Java, Spring Boot e PostgreSQL para gerenciamento de animes favoritos, implementando operações CRUD.",
     image: animaiImage,
     githubUrl: "https://github.com/Jhamyllie/AnimAi",
     technologies: ["Java", "Spring Boot", "PostgreSQL"],
@@ -28,7 +28,6 @@ const projects = [
       "PostgreSQL",
     ],
   },
-
 ];
 
 export function Projects() {
@@ -37,9 +36,7 @@ export function Projects() {
       <div className="projects__content">
         <p className="projects__eyebrow">Projetos</p>
 
-        <h2 className="projects__title">
-          Alguns projetos que marcaram minha jornada
-        </h2>
+        <h2 className="projects__title">Projetos em destaque</h2>
 
         <div className="projects__grid">
           {projects.map((project) => (
@@ -49,8 +46,8 @@ export function Projects() {
               description={project.description}
               image={project.image}
               githubUrl={project.githubUrl}
-              technologies={project.technologies}
               projectUrl={project.projectUrl}
+              technologies={project.technologies}
             />
           ))}
         </div>

@@ -1,9 +1,3 @@
-// export function About() {
-//   return 
-//   <section id="about">
-//     About
-//   </section>;
-// }
 import "./About.css";
 
 export function About() {
@@ -19,20 +13,23 @@ export function About() {
         <div className="about__text">
           <p>
             Sou desenvolvedora Full Stack em início de carreira, com experiência
-            prática no desenvolvimento e manutenção de aplicações web.
+            prática no desenvolvimento e na manutenção de{" "}
+            <span>aplicações web</span>.
           </p>
 
           <p>
-            Minha trajetória começou na área da educação, onde desenvolvi
-            habilidades de comunicação, organização e resolução de problemas.
-            Hoje, aplico essas competências no desenvolvimento de soluções
-            digitais.
+            Minha trajetória profissional começou na área da educação, onde
+            desenvolvi habilidades de <span>comunicação</span>,{" "}
+            <span>organização</span> e{" "}
+            <span>resolução de problemas</span>. Hoje, aplico essas competências
+            na construção de <span>soluções digitais</span>.
           </p>
 
           <p>
-            Gosto de entender o problema antes de começar a programar e busco
-            construir interfaces claras, APIs bem estruturadas e soluções que
-            sejam fáceis de manter.
+            Gosto de compreender o problema antes de começar a programar e busco
+            desenvolver <span>interfaces claras</span>,{" "}
+            <span>APIs bem estruturadas</span> e{" "}
+            <span>aplicações fáceis de manter</span>.
           </p>
         </div>
       </div>

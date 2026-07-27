@@ -19,6 +19,10 @@ export function Header() {
             </li>
 
             <li>
+              <a href="#experience">Experiência</a>
+            </li>
+
+            <li>
               <a href="#skills">Habilidades</a>
             </li>
 

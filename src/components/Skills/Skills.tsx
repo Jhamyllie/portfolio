@@ -3,7 +3,7 @@ import "./Skills.css";
 const skillGroups = [
   {
     title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS"],
+    skills: ["React", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS", "MUI"],
   },
   {
     title: "Backend",
@@ -11,11 +11,11 @@ const skillGroups = [
   },
   {
     title: "Banco de dados",
-    skills: ["PostgreSQL", "SQL"],
+    skills: ["PostgreSQL", "MySQL", "Mongo.db"],
   },
   {
     title: "Ferramentas e práticas",
-    skills: ["Git", "GitHub", "Jest", "React Testing Library"],
+    skills: ["Git", "GitHub", "Jest", "RTL", "Vercel", "Postman"],
   },
 ];
 
@@ -30,8 +30,7 @@ export function Skills() {
         </h2>
 
         <p className="skills__description">
-          Tecnologias que utilizo no desenvolvimento, manutenção e teste de
-          aplicações web.
+          Tecnologias e ferramentas que utilizei no desenvolvimento de aplicações web e projetos pessoais.
         </p>
 
         <div className="skills__grid">

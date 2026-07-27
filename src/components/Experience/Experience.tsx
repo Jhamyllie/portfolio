@@ -17,13 +17,17 @@ const experiences: Experience[] = [
     company: "Aceleradora Ágil",
     period: "Abr/2025 - Jul/2026",
     description:
-      "Atuei no desenvolvimento e evolução da plataforma e-acelera, participando da criação do CMS próprio, da migração gradual do Stackby para PostgreSQL utilizando feature flags e da manutenção de funcionalidades no front-end e back-end.",
+      "Atuei no desenvolvimento e evolução da plataforma e-acelera, participando da criação do CMS próprio, da migração do Stackby para PostgreSQL utilizando feature flags e da implementação e manutenção de funcionalidades no front-end e back-end.",
     technologies: [
       "Next.js",
       "React",
+      "MUI",
       "TypeScript",
       "Node.js",
+      "Express",
       "PostgreSQL",
+      "MySQL",
+      "Mongo.db",
       "Git",
     ],
   },
@@ -33,7 +37,7 @@ const experiences: Experience[] = [
     company: "Prefeitura Municipal de Brejões",
     period: "Mar/2018 - Dez/2021",
     description:
-      "Atuei no apoio ao desenvolvimento infantil, acompanhamento de estudantes com deficiência, suporte em sala de aula e atendimento ao público nas secretarias escolares do município.",
+      "Atuei no apoio ao desenvolvimento infantil, acompanhamento de estudantes e atendimento ao público, desenvolvendo habilidades de comunicação, organização, empatia e resolução de problemas.",
   },
 ];
 
@@ -42,7 +46,7 @@ export function Experience() {
     <section id="experience" className="experience">
       <div className="experience__content">
         <p className="experience__eyebrow">
-          Experiência profissional
+          Experiência
         </p>
 
         <h2 className="experience__title">
