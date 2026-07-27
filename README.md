@@ -18,11 +18,11 @@ Além de servir como vitrine dos meus projetos, este portfólio também foi cons
 
 ## 📷 Preview
 
-> Uma captura de tela do projeto será adicionada após o deploy.
+<p align="center">
+  <img src="./public/images/preview.png" alt="Preview do Portfólio" width="100%">
+</p>
 
-<!--
-![Preview do Portfólio](./public/images/preview.png)
--->
+https://portfolio-eta-inky-51.vercel.app/
 
 ## ✨ Funcionalidades
 
