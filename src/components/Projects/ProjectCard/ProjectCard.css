@@ -85,9 +85,11 @@
 
 .project-card__links a {
   display: inline-flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
 
+  min-width: 120px;
   min-height: 42px;
   padding: 0.65rem 1rem;
 
@@ -96,6 +98,7 @@
   border-radius: 0.5rem;
 
   font-weight: 600;
+  text-align: center;
   text-decoration: none;
 
   transition:
@@ -120,6 +123,7 @@
   }
 
   .project-card__links a {
+    flex-basis: 100%;
     width: 100%;
   }
 }

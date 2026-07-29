@@ -6,6 +6,7 @@ interface ProjectCardProps {
   image: string;
   githubUrl?: string;
   projectUrl?: string;
+  swaggerUrl?: string;
   technologies: string[];
 }
 
@@ -15,6 +16,7 @@ export function ProjectCard({
   image,
   githubUrl,
   projectUrl,
+  swaggerUrl,
   technologies,
 }: ProjectCardProps) {
   return (
@@ -39,13 +41,19 @@ export function ProjectCard({
         <div className="project-card__links">
           {githubUrl && (
             <a href={githubUrl} target="_blank" rel="noreferrer">
-              GitHub
+              Código
             </a>
           )}
 
           {projectUrl && (
             <a href={projectUrl} target="_blank" rel="noreferrer">
-              Ver projeto
+              API Online
+            </a>
+          )}
+
+          {swaggerUrl && (
+            <a href={swaggerUrl} target="_blank" rel="noreferrer">
+              Documentação
             </a>
           )}
         </div>
