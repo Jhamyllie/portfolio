@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "e-acelera",
     description:
-    "Plataforma educacional da Aceleradora Ágil. Atuei na evolução do sistema, incluindo o desenvolvimento do CMS próprio e a migração gradual do Stackby para PostgreSQL com uso de feature flags.",
+    "Plataforma educacional da Aceleradora Ágil. Atuei na evolução do sistema, desenvolvendo um CMS próprio e participando da migração gradual do Stackby para PostgreSQL com feature flags.",
     image: eAceleraImage,
     projectUrl: "https://aceleradora-agil.com.br/",
     technologies: [

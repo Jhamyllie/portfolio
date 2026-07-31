@@ -109,10 +109,22 @@
 }
 
 @media (max-width: 900px) {
+  .hero {
+    min-height: auto;
+    padding: 3rem var(--spacing-md);
+  }
+
   .hero__content {
     flex-direction: column-reverse;
-    text-align: center;
     gap: 2.5rem;
+
+    text-align: center;
+  }
+
+  .hero__text {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .hero__actions {
@@ -120,10 +132,45 @@
   }
 
   .hero__image img {
-    /* width: 260px;
-    height: 260px; */
+    width: min(300px, 72vw);
+    height: min(300px, 72vw);
+  }
+}
 
-    width: 360px;
-    height: 360px;
+@media (max-width: 600px) {
+  .hero {
+    padding: 2.5rem 1rem;
+  }
+
+  .hero__content {
+    gap: 2rem;
+  }
+
+  .hero__title {
+    font-size: clamp(2.4rem, 13vw, 3.5rem);
+  }
+
+  .hero__role {
+    font-size: clamp(1.4rem, 7vw, 2rem);
+  }
+
+  .hero__description {
+    font-size: 1rem;
+  }
+
+  .hero__image img {
+    width: min(250px, 70vw);
+    height: min(250px, 70vw);
+  }
+}
+
+@media (max-width: 400px) {
+  .hero__actions {
+    flex-direction: column;
+  }
+
+  .hero__button {
+    width: 100%;
+    text-align: center;
   }
 }
