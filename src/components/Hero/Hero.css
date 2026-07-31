@@ -7,9 +7,19 @@
 }
 
 .hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
+}
+
+.hero__text {
+  flex: 1;
+  max-width: 700px;
 }
 
 .hero__greeting {
@@ -34,11 +44,11 @@
 }
 
 .hero__description {
-  max-width: 650px;
   margin-top: var(--spacing-md);
 
   color: var(--color-text-secondary);
   font-size: 1.125rem;
+  line-height: 1.6;
 }
 
 .hero__actions {
@@ -51,10 +61,13 @@
 
 .hero__button {
   padding: 0.75rem 1.5rem;
+
   border: 1px solid var(--color-primary);
   border-radius: 0.5rem;
 
   font-weight: 500;
+  text-decoration: none;
+
   transition:
     background-color 0.2s,
     color 0.2s,
@@ -77,4 +90,40 @@
 .hero__button--secondary:hover {
   background-color: var(--color-primary);
   color: var(--color-background);
+}
+
+.hero__image {
+  flex-shrink: 0;
+}
+
+.hero__image img {
+  width: 380px;
+  height: 380px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 1px solid var(--color-primary);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+@media (max-width: 900px) {
+  .hero__content {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2.5rem;
+  }
+
+  .hero__actions {
+    justify-content: center;
+  }
+
+  .hero__image img {
+    /* width: 260px;
+    height: 260px; */
+
+    width: 360px;
+    height: 360px;
+  }
 }
